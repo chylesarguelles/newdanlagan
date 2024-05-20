@@ -1,0 +1,518 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="/G:/coding/wensite/favicon.ico" type="image/x-icon" />
+<meta charset="utf-8"/>
+<title>Danlagan</title>
+<meta name="Viewpoint" content="Width=device-width,initial-scale=1.0">
+<link rel="stylsheet" href="styles.css"/>
+<style type="text/css">
+* {
+margin: 0;
+border: 0;
+padding: 0;
+}
+body{
+background: #edebe686;
+font: 14px/20px Arial, San-Serif;
+color: #3e3d3d;
+margin: 0;
+}
+h1 {
+text-align: center;
+font size: 180%;
+line-height: 120%;
+padding: 5% 0;
+}
+h2 {
+text-decoration: underline;
+line-height: 280%;
+padding-left: 2%:
+}
+h3 {
+line-height: 110%;
+padding: 5% 0;
+}
+p{
+padding: 1%;
+}
+img {
+text-align: center;
+max-width: 100%;
+height: auto;
+width: auto;
+}
+a {
+color: #000000ae;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #e6e2df;
+text-decoration: underline;
+}
+header {
+background: #4d2d04d3;
+width: 100%;
+height: 86px;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+opacity: 0.90;
+}
+#logo {
+  display: inline-block;
+  margin: 15px; 
+  float: left;
+  height: 60px;
+  width: auto; 
+  border-radius: 50%; 
+}
+nav { 
+float: right;
+padding: 35px 20px 20px 0;
+}
+#menu-icon {
+display: hidden;
+width: 40px;
+height: 40px;
+background:#b2afaf url(http://i65.tinypic.com/xgfvc4.jpg) center;
+}
+a:hover#menu-icon {
+border-radius: 4px 4px 0 0;
+}
+footer {
+background: #333333;
+width: 100%;
+overflow: hidden;
+opacity: 0.90;
+}
+footer p, footer h3 {
+color: #fff;
+}
+footer p a {
+color: #fff;
+text-decoration: none;
+}
+ul.social li {
+display: inline;
+}
+ul.social li img {
+height: 50px;
+}
+footer.second {
+border-top: 1px solid #4D4E50;
+background-color: #333333;
+max-height: 50px;
+text-align: center;
+opacity: 0.95;
+}
+.current {
+color: #fff;
+text-decoration: underline;
+}
+#doc {
+margin: 40px 0;
+}
+#content {
+margin; 0 auto;
+max-width: 1140px;
+margin-top: 110px;
+}
+.blueberry {
+max-width; 960px;
+margin-top; 110px;
+}
+section {
+width: 29%;
+float: left;
+margin: 2% 2%;
+text-align: center;
+}
+.clear {
+clear: both;
+}
+article {
+float: left;
+margin: 0 auto;
+width: 50%;
+height: auto;
+padding: 4%;
+}
+aside {
+float: right;
+margin: 0 auto;
+width: 35%;
+height: auto;
+padding: 3%;
+}
+ul.camaro li {
+padding-left: 3%;
+}
+@media screen and (max-width: 478px) {
+body {
+position: absolute;
+}
+}
+@media screen and (max-width: 740px) {
+header {
+position: absolute;
+}
+#menu-icon {
+display: inline-block;
+}
+nav ul, nav:active ul {
+display: none;
+position: absolute;
+padding: 20px;
+background: #405580;
+border: 1px solid #fff;
+right: 20px;
+top: 60px;
+width: 50%;
+border-radius: 2px 0 2px 2px;
+}
+nav li {
+text-align: center;
+width: 100%;
+padding: 10px 0;
+margin: 0;
+}
+nav:hover ul {
+display: block;
+}
+section {
+float: left;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #686969;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #515b7a;  
+  }
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+</script>
+</head>
+<body>
+<header>
+<a href="#"><img id="logo" src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\LOGO.webp"></a>
+
+<nav>
+  <a href="#" id="menu-icon"></a>
+  <ul>
+    <li><a href="file:///C:/Users/ASUS/OneDrive/Desktop/Brgy.Danlagan%20Code/.vscode/brgyoff.html">Barangay Officials</a></li>
+    <li><a href="file:///C:/Users/ASUS/OneDrive/Desktop/Brgy.Danlagan%20Code/.vscode/establishment.html">Establishment</a></li>
+    <li><a href="file:///C:/Users/ASUS/OneDrive/Desktop/Brgy.Danlagan%20Code/.vscode/populationnew.html">Population</a></li>
+    <li><div class="dropdown">
+  <button class="dropdown-button">More</button>
+  <div class="dropdown-content">
+    <a href="file:///C:/Users/ASUS/OneDrive/Desktop/Brgy.Danlagan%20Code/.vscode/logo.html">Kahulugan ng Logo</a>
+    <a href="file:///C:/Users/ASUS/OneDrive/Desktop/Brgy.Danlagan%20Code/.vscode/kasaysayan.html">Kasaysayan</a>
+    <a href="file:///C:/Users/ASUS/OneDrive/Desktop/Brgy.Danlagan%20Code/.vscode/mvstory.html">Vision & Mission</a>
+    <a href="file:///C:/Users/ASUS/OneDrive/Desktop/Brgy.Danlagan%20Code/.vscode/occasions.html">Events</a>
+ </div>
+</div></li>
+<style>
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #6af060;
+  color: #0e0d0d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}</style>
+  </ul>
+</nav>
+<style>
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 5px 10px;
+  background-color: #eee;
+  border: 1px solid #020202;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  background-color: #5ce255;
+}
+  </style>
+
+</header>
+<div id="doc">
+  <div id="content"></div>
+<div class="blueberry">
+  <div style="text-align: center;">
+    <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\Picture2.jpg" alt="Paris" style="max-width:1500px">
+   <br>
+    <div class="box">
+    <div class="box-content" style="text-align: center;">
+      <h1>Danlagan is a barangay in the municipality of Lopez, in the province of Quezon. Its population as determined by the 2020 Census was 3,190. This represented 3.37% of the total population of Lopez. The household population of Danlagan in the 2015 Census was 3,273 broken down into 667 households or an average of 4.91 members per household. Danlagan is situated at approximately 13.8873, 122.2680, on the island of Luzon. The elevation at these coordinates is estimated at 6.1 meters or 20.0 feet above mean sea level.</h1>
+    </div>
+    <style>
+      .box {
+        border: 2px solid #e3d9d9;
+        padding: 3px;
+        margin: 3px 0;
+        border-radius: 2px;
+        background-color: #6ef3915b;
+      }
+    </style>
+</div>
+<hr>
+<Style>
+  .letter-container {
+  display: inline-block;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  transition: transform .3s ease;
+}
+
+.letter-container:hover {
+  transform: rotate(10deg);
+  color: #0a42ea;
+  text-shadow: 2px 2px 2px rgb(6, 6, 6);
+}
+  </Style>
+  <br>
+  <br>
+<div class="letter-container">
+  <span class="LANDMARKS">LANDMARKS</span>
+</div>
+<hr class="custom-hr">
+<style>
+  .custom-hr {
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the separator */
+  background-color: #070707; /* Change the background color to a dark gray */
+  margin: 20px auto; /* Add some margin and center the separator horizontally */
+  width: 50%; /* Set the width of the separator to 50% of its container */
+}
+</style>
+<br>
+
+<section>
+  <style>
+  .image-link {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-link img {
+  transition: transform .3s ease;
+}
+
+.image-link:hover img {
+  transform: scale(1.1);
+  border: 5px solid black;
+}</style>
+<a href="#" class="image-link">
+  <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\IMG20230204180918.webp" alt="Image">
+</a>
+<a href="#" class="text-link">Lopez Saint Jude General Hospital</a>
+<style>.text-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #675106;
+  text-decoration: none;
+  transition: background-color .3s ease;
+}
+
+.text-link:hover {
+  background-color: #090909;
+  color: #ffffff;
+}
+  </style>
+  </section>
+  <section>
+    <a href="#" class="image-link">
+  <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\IMG20230205105924.webp" alt="Image">
+</a>
+<a href="#" class="text-link">Monastery of Saint Claire</a>
+<style>.text-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #675106;
+  text-decoration: none;
+  transition: background-color .3s ease;
+}
+
+.text-link:hover {
+  background-color: #090909;
+  color: #ffffff;
+}
+  </style>
+  </section>
+  <section>
+    <a href="#" class="image-link">
+  <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\IMG20230205110941 (1).webp" alt="Image">
+</a>
+<a href="#" class="text-link">Mom's Backyard</a>
+<style>.text-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #675106;
+  text-decoration: none;
+  transition: background-color .3s ease;
+}
+
+.text-link:hover {
+  background-color: #090909;
+  color: #ffffff;
+}
+  </style>
+  </section>
+
+  <table width="100%"style="background-image: ""('background.jpg'); background-size: cover;"></table>
+  <tr>
+
+  </tr>
+</table>
+    <br>
+    <td align="center">
+      <div class="video-container">
+        <video width="1200 height="500" controls>
+          <source src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\danlagan vid.mp4" type="video/mp4">
+          <source src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\danlagan vid.mp4" type="video/ogg">
+        </video>
+      </div>
+    </td>
+  </tr>
+</table>
+<br>
+<style>
+  .font_7 {
+  font-family: arial, ms pgothic, dotum, helvetica, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 1.8em;
+}
+
+.wixui-rich-text__text {
+  display: inline-block;
+}
+  </style>
+ 
+
+  <footer style="background-color: #efe8e8; font-size: 0.8rem; padding: 10px;">
+    <div class="image-container">
+  <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\Untitled_design-removebg-preview.png" width="180" height="180">
+</div>
+<b>Zone 6,Barangay Danlagan Lopez,Quezon</b>
+<br>
+<div class="emergency-hotlines">
+  <b>Emergency Hotlines</b>
+  <div class="hotline">MDDRMO Tel: (420)717-4364</div>
+  <div class="hotline">MDDRMO Mobile Number: 09092410636</div>
+  <div class="hotline">PNP Tel: (042)326-1269</div>
+  <div class="hotline">PNP Mobile Number: 09084898918</div>
+  <div class="hotline">BFP Tel: (042)717-4459</div>
+  <div class="hotline">BFP Mobile Number: 09303271448</div>
+</div>
+</footer>

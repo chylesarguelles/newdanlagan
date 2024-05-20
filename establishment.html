@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image with Paragraph Example</title>
+</head>
+<style>
+    body{
+background: #d18ce4;
+font: 14px/20px Arial, San-Serif;
+color: #555;
+margin: 0;
+}
+</style>
+
+<h1 class="mission-vision">Establishment that will found in Barangay Danlagan</h1>
+<style>
+  .mission-vision {
+  color: #3b023a; /* Change the color of the text to a dark gray */
+  font-size: 24px; /* Change the font size to 24 pixels */
+  text-align: center; /* Center the text horizontally */
+}
+</style>
+<hr class="custom-hr">
+<style>
+  .custom-hr {
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the separator */
+  background-color: #eee5e5; /* Change the background color to a dark gray */
+  margin: 20px auto; /* Add some margin and center the separator horizontally */
+  width: 50%; /* Set the width of the separator to 50% of its container */
+}
+</style>
+
+<body>
+<div class="image-box-container">
+  <div class="image-box">
+    <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\IMG20230204180918.webp" alt="Image 1">
+    <div class="caption">Lopez Saint Jude General Hospital</div>
+  </div>
+  <div class="image-box">
+    <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\IMG20230205105924.webp" alt="Image 2">
+    <div class="caption">Monastary of Saint Claire</div>
+  </div>
+  <div class="image-box">
+    <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\IMG20230205110941 (1).webp" alt="Image 3">
+    <div class="caption">Mom's Backyard</div>
+  </div>
+</div>
+
+<div class="image-box-container">
+  <div class="image-box">
+    <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\p.jpg" alt="Image 4">
+    <div class="caption">Kainan sa Garage</div>
+  </div>
+  <div class="image-box">
+    <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\436069010_952361766893464_1223876239919229460_n.jpg" alt="Image 5">
+    <div class="caption">Rospan Lodge and Restaurant</div>
+  </div>
+  <div class="image-box">
+    <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\R (1).jpg" alt="Image 6">
+    <div class="caption">Iglesia Ni Kristo (Quezon East)</div>
+  </div>
+  
+</div>
+
+
+
+<style>
+  .image-box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  position: relative;
+  width: 32%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-box:hover .caption {
+  opacity: 1;
+}
+</style>
+</body>
+</html>

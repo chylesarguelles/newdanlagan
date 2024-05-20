@@ -1,0 +1,37 @@
+
+<style>
+    .hover-text {
+  position: relative;
+  cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+.hover-text:hover::after {
+  content: attr(data-hover); /* Display the hover text */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #e6da72; /* Background color of the hover text */
+  border: 1px solid #0a0a0a; /* Border of the hover text */
+  border-radius: 5px; /* Rounded corners of the hover text */
+  z-index: 1; /* Make sure the hover text is on top */
+}
+
+.hover-text:hover::after {
+  /* Add animation to the hover text */
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>
+
+<p class="hover-text" data-hover="mamamayan ng barangay. Ito rin ay sumasagisag sa buhay ng bawat mamamayan na kung minsan ay nasa ibabaw at kung minsan ay nasa ilalim.">Ang "BILOG"</p>
+<p class="hover-text" data-hover="sumasagisag sa isa sa mga hanap-buhay ng mga ilang mamamayan dito.">Ang "ISDA" or "DALAG" at "SALAKAB"</p>
+<!-- Add more paragraphs as needed -->

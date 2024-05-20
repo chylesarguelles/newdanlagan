@@ -1,0 +1,36 @@
+<div class="adjust-height-view ng-scope" adjust-height-view="" ng-if="!fixedHeight"><section style="width:100%;" ng-show="settings.tableParams.showHeaderFooter &amp;&amp; !isEmptyTable">
+  <table id="filterTable" class="filter outerBorder" style="width:100%;" ng-class="{'mobile':isMobile}">
+    <thead>
+    <tr>
+      <th colspan="100%">
+        <div id="filterBox" ng-show="settings.tableParams.filter" class="footable-filtering-external footable-filtering-right"><form class="form-inline"><div class="form-group1 footable-filtering-search"><div class="input-group"><input type="text" class="form-control" placeholder="Search..."></div></div></form></div>
+      </th>
+    </tr>
+    </thead>
+  </table>
+</section>
+<div id="tableWrapper">
+  <table id="theTable" style="width: 100%; display: table;" dir="auto" data-paging="false" data-cascade="true" data-filter-min="3" data-paging-size="5" data-useparentwidth="true" data-filter-container="#filterBox" data-filter-connectors="false" data-use-parent-width="false" data-sorting="true" data-filtering="true" data-filter-filters="[]" data-filter-placeholder="Search..." data-filter-position="right" data-show-header="true" ng-class="{'empty-table':isEmptyTable}" class="footable table outerBorder footable-1 footable-filtering footable-filtering-right breakpoint-x-small"><thead><tr class="footable-header"><th class="wixColumns footable-sortable footable-first-visible" style="display: table-cell;">Type<span class="fooicon fooicon-sort"><!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="09-Icons-/-Sort-/-General" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path class="sortIcon" d="M8.5,4 L8.499,18.222 L11.3744945,15.6 L12,16.3614292 L8.0075336,20 L4,16.3620683 L4.62006266,15.6 L7.499,18.214 L7.5,4 L8.5,4 Z" id="🎨-Color" fill="#000000" transform="translate(8.000000, 12.000000) rotate(180.000000) translate(-8.000000, -12.000000) "></path>
+        <path class="sortIcon" d="M16.5,4 L16.499,18.222 L19.3744945,15.6 L20,16.3614292 L16.0075336,20 L12,16.3620683 L12.6200627,15.6 L15.499,18.214 L15.5,4 L16.5,4 Z" id="🎨-Color" fill="#000000"></path>
+    </g>
+</svg></span></th><th class="wixColumns footable-sortable footable-last-visible" style="display: table-cell;">Barangay<span class="fooicon fooicon-sort"><!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="09-Icons-/-Sort-/-General" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path class="sortIcon" d="M8.5,4 L8.499,18.222 L11.3744945,15.6 L12,16.3614292 L8.0075336,20 L4,16.3620683 L4.62006266,15.6 L7.499,18.214 L7.5,4 L8.5,4 Z" id="🎨-Color" fill="#000000" transform="translate(8.000000, 12.000000) rotate(180.000000) translate(-8.000000, -12.000000) "></path>
+        <path class="sortIcon" d="M16.5,4 L16.499,18.222 L19.3744945,15.6 L20,16.3614292 L16.0075336,20 L12,16.3620683 L12.6200627,15.6 L15.499,18.214 L15.5,4 L16.5,4 Z" id="🎨-Color" fill="#000000"></path>
+    </g>
+</svg></span></th></tr></thead><tbody><tr class="footableEven"><td class="wixColumns footable-first-visible" style="display: table-cell;">Island Group&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">Luzon&nbsp;</td></tr><tr class="footableOdd"><td class="wixColumns footable-first-visible" style="display: table-cell;">Region&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">CALABARZON (REGION IV-A)&nbsp;</td></tr><tr class="footableEven"><td class="wixColumns footable-first-visible" style="display: table-cell;">Province&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">Quezon&nbsp;</td></tr><tr class="footableOdd"><td class="wixColumns footable-first-visible" style="display: table-cell;">Municipality&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">Lopez&nbsp;</td></tr><tr class="footableEven"><td class="wixColumns footable-first-visible" style="display: table-cell;">Postal Code&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">4316&nbsp;</td></tr><tr class="footableOdd"><td class="wixColumns footable-first-visible" style="display: table-cell;">Population (2020)&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">745&nbsp;</td></tr><tr class="footableEven"><td class="wixColumns footable-first-visible" style="display: table-cell;">Philippine Major Island&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">Luzon&nbsp;</td></tr><tr class="footableOdd"><td class="wixColumns footable-first-visible" style="display: table-cell;">Coordinates&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">13.8356, 122.2835 (13° 50' North, 122° 17' East)&nbsp;</td></tr><tr class="footableEven"><td class="wixColumns footable-first-visible" style="display: table-cell;">Estimated elevation above sea level&nbsp;</td><td class="wixColumns footable-last-visible" style="display: table-cell;">29.4 meters (96.5 feet)&nbsp;</td></tr></tbody></table>
+</div>
+<section style="width:100%;margin:0;">
+  <table id="pagerFilter" class="footable footer outerBorder" style="width:100%;margin:0;" ng-show="settings.tableParams.showHeaderFooter">
+    <tfoot id="noPager">
+    <tr>
+      <td colspan="100%" style="height:26px;"></td>
+    </tr>
+    </tfoot>
+  </table>
+</section>
+</div>

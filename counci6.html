@@ -1,0 +1,129 @@
+<style>
+  body{
+    background: #474963;
+font: 14px/20px Arial, San-Serif;
+color: #0a0a0a;
+margin: 0;
+</style>
+
+<div class="container">
+  <div class="box">
+    <p>
+      <div style="display: flex; align-items: right">
+        <div>
+          <table>
+            <head>
+              <tr>
+                <th>Position</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+              </tr>
+            </head>
+            <body>
+              <tr>
+                <td>Barangay Councilor</td>
+                <td>KGG. MELCHOR V. LLAGUNO</td>
+                <td><a href="n/a">n/a</a></td>
+                <td>0</td>
+              </tr>
+            </body>
+          </table>    
+      </p>
+  </div>
+</div>
+
+<style>
+  table {
+  border-collapse: separate;
+  border-spacing: 0 2px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+th, td {
+  border: 1px solid #ed71e0;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e6e8e4;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #cadd62;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="image-frame">
+  <img src="C:\Users\ASUS\OneDrive\Desktop\Brgy.Danlagan Code\counci6.webp" alt="Image description" class="image">
+  <div class="overlay">
+  </div>
+</div>
+
+<style>
+  .image-frame {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  float: right;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+  transition: transform .5s ease;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(131, 233, 235, 0.162);
+  overflow: hidden;
+  width: 80%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.image-frame:hover .image {
+  transform: scale(1.1);
+}
+
+.image-frame:hover .overlay {
+  height: 100%;
+}
+
+.overlay h2 {
+  color: rgb(9, 9, 9);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.overlay p {
+  color: rgb(16, 15, 15);
+  font-size: 16px;
+  position: absolute;
+  top: 70%;
+  left: 20px;
+  transform: translateY(-50%);
+  text-align: right;
+}
+</style>

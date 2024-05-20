@@ -1,0 +1,136 @@
+<style>body{
+    background: #33bdd8cc;
+    font: 14px/20px Arial, San-Serif;
+    color: #3e3d3d;
+    margin: 0;</style>
+
+
+<p class="font_7 wixui-rich-text__text" style="font-size:18px; line-height:1.8em; text-align: center;">
+    <span style="color:#f3f3eb;" class="wixui-rich-text__text">
+      <span style="font-size:18px;" class="wixui-rich-text__text">
+        <span style="font-family:arial,ms pgothic,dotum,helvetica,sans-serif;" class="wixui-rich-text__text">KAHULUGAN/ PALIWANAG SA MGA BAHAGI NG LOGO NG&nbsp;</span>
+      </span>
+    </span>
+    <span style="color:#f1f0e9;" class="wixui-rich-text__text">
+      <span style="font-size:18px;" class="wixui-rich-text__text">
+        <span style="font-family:arial,ms pgothic,dotum,helvetica,sans-serif;" class="wixui-rich-text__text">BRGY. DANLAGAN LOPEZ QUEZON </span>
+      </span>
+    </span>
+  </p>
+
+ <hr class="custom-hr">
+<style>
+  .custom-hr {
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the separator */
+  background-color: #0a0909; /* Change the background color to a dark gray */
+  margin: 20px auto; /* Add some margin and center the separator horizontally */
+  width: 50%; /* Set the width of the separator to 50% of its container */
+}
+</style>
+  
+  <style>
+      .hover-text {
+    position: relative;
+    cursor: pointer; /* Change cursor to a pointer on hover */
+  }
+  
+  .hover-text:hover::after {
+    content: attr(data-hover); /* Display the hover text */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #efeee8; /* Background color of the hover text */
+    border: 1px solid #f6eeee; /* Border of the hover text */
+    border-radius: 5px; /* Rounded corners of the hover text */
+    z-index: 1; /* Make sure the hover text is on top */
+  }
+  
+  .hover-text:hover::after {
+    /* Add animation to the hover text */
+    animation: fadeIn 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  </style>
+
+<style>
+  .hover-text {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(6, 121, 236);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+
+  .hover-text:hover {
+    background-color: rgb(2, 2, 2);
+  }
+</style>
+
+<p class="hover-text" data-hover="mamamayan ng barangay. Ito rin ay sumasagisag sa buhay ng bawat mamamayan na kung minsan ay nasa ibabaw at kung minsan ay nasa ilalim.">Ang "BILOG"</p>
+<p class="hover-text" data-hover="sumasagisag sa isa sa mga hanap-buhay ng mga ilang mamamayan dito.">Ang "ISDA" or "DALAG" at "SALAKAB"</p>
+<p class="hover-text" data-hover="ang sumasagisag sa pangunahing hanap-buhay ng mga taga- barangay. Dahil malaking bahagi ng Barangay Danlagan ay may mga palayan.">Ang "PALAYAN/TUBIGAN"</p>
+<p class="hover-text" data-hover="ay sumasagisag sa katatagan ng barangay na ito. Ito rin ay sumasasagisag sa bulubunduking bahagi ng barangay.">Ang "BUNDOK"</p>
+<p class="hover-text" data-hover="ay sumisimbolo sa mataas na pangarap ng mga Opisyal ng Barangay tungo sa ibayong kaunlaran nito.">Ang "ULAP"</p>
+<p class="hover-text" data-hover="ay sumasagisag sa kapayapaang umiiral sa buong barangay.">Ang Kulay "ASUL"</p>
+<p class="hover-text" data-hover="ay sumisimbolo sa malinis at tapat na paglilingkod ng mga Opisyal ng Barangay.">Ang Kulay "PUTI"</p>
+<p class="hover-text" data-hover="ay sumasagisag sa mayamang likas na yaman sa nasasakupan ng barangay.">Ang Kulay "LUNTIAN/BERDE"</p>
+<p class="hover-text" data-hover="ay sumisimbolo sa pagkakaisa ng mga Opisyal ng Barangay at ng mga mamamayan ng barangay tungo sa isang layunin ang kaunlaran ng barangay.">Ang Kulay "DILAW"</p
+
+  <div class="image-container">
+    <img src="https://static.wixstatic.com/media/90f661_5a4369a8d8f043af8ef51449a601bf6e~mv2.png/v1/fill/w_264,h_270,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOGO.png" alt="Image Description" class="image">
+    <div class="overlay">
+      <div class="text">Hover Text</div>
+    </div>
+  </div>
+  
+  <style>
+    .image-container {
+      position: relative;
+      width: 50%;
+    }
+  
+    .image {
+      display: block;
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+    }
+  
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      width: 50%;
+      height: 0;
+      transition: .5s ease;
+    }
+  
+    .image-container:hover .overlay {
+      height: 50%;
+    }
+  
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>

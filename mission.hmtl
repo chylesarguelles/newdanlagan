@@ -1,0 +1,24 @@
+<div class="vision-box">
+  <b>Vision</b>
+  <p>Isang Progresibong Pamayanan na may luntian at malinis na kapaligiran, may mga mamamayang huwaran sa mabuting asal<br>, may sapat na edukasyon at may takot sa Diyos, may pamunuang tapat na naglilingkod sa Barangay <br>at mamamayang nagkakaisa, may permanenteng pagkakakitaan, may mabilis na transportasyon <br>at masaganang pamumuhay para sa patuloy na pag-unlad ng
+    Barangay<br></p>
+</div>
+<style>
+  .vision-box {
+  background-color: #ec8691;
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin: 20px 0 20px auto;
+  max-width: 300px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  float: left; /* Align to the right */
+}
+
+@media (max-width: 768px) {
+  .vision-box {
+    float: none; /* Reset float on smaller screens */
+    margin: 20px auto; /* Center on smaller screens */
+  }
+}
+</style>
